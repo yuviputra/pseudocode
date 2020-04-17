@@ -50,6 +50,7 @@ ELSE IF "kukuSiswa" EQUAL TO "pendek" THEN
 DISPLAY "guruMuji"
 ADD "siswa" BY 1 
 END WHILE
+DISPLAY "guru periksa kuku"
 
 
 
