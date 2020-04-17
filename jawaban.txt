@@ -1,0 +1,61 @@
+Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk menghitung 
+resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg 
+dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
+
+STORE "massa" WITH VALUE 600
+STORE "percepepatan" WITH VALUE 2
+STORE "gaya" EQUAL TO "massa" TIMES "percepepatan"
+
+DISPLAY "gaya" 
+
+
+
+Jika suatu tahun memiliki tanggal 29 Februari berarti tahun tersebut merupakan tahun kabisat.
+Jika tahun habis di bagi 4 dan tidak habis di bagi 100, atau
+Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+
+STORE "tahun" WITH ANY VALUE 
+IF "tahun" MOD 4 EQUAL TO 0 AND "tahun" MOD 100 EQUAL TO 1 THEN 
+DISPLAY "kabisat"
+ELSE IF "tahun" MOD 4 EQUAL TO 0 AND "tahun" MOD 100 EQUAL TO 0 AND "tahun" MOD 400 EQUAL TO 0 THEN
+DISPLAY "kabisat"
+ELSE 
+DISPLAY "bukan kabisat"
+
+
+Foxie akan mencuci pakaiannya menggunakan mesin cuci
+Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci 
+Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci
+
+STORE "pakaian" WITH VALUE 0
+WHILE "pakaian" LOWER TO 20
+    ADD "pakaian" by 1 
+END WHILE
+DISPLAY "mesin cuci nyala"
+
+
+Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas
+Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut
+jika tidak guru akan memuji siswa/siswi tersebut
+
+
+STORE "siswa" WITH VALUE 0 
+STORE "totalSiswa" EQUAL TO 40
+STORE "kukuSiswa" WITH VALUE "panjang" OR "pendek"
+WHILE "siswa" LOWER TO 40
+IF "kukuSiswa" EQUAL TO "panjang" THEN
+DISPLAY "guruMarah"
+ADD "siswa" BY 1
+ELSE IF "kukuSiswa" EQUAL TO "pendek" THEN
+DISPLAY "guruMuji"
+ADD "siswa" BY 1 
+END WHILE
+
+
+
+
+
+
+
+
+
